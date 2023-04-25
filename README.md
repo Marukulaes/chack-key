@@ -206,7 +206,7 @@ function EngUi:Window(text,maincolor)
    MinimizeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
    MinimizeBtn.TextSize = 14.000
    MinimizeBtn.BorderSizePixel = 0
-   MinimizeBtn.AutoButtonColor = false]]
+   MinimizeBtn.AutoButtonColor = false
 
 	MinimizeIcon.Name = "MinimizeLabel"
 	MinimizeIcon.Parent = MinimizeBtn
@@ -3263,12 +3263,3 @@ function EngUi:Window(text,maincolor)
 	return ServerHold
 end
 warn("Imported Ui")
-local win = EngUi:Window("")
-local serv = win:Server("Manake X Hub", "")
-
-local Main40 = serv:Channel("Main")
-local item40 = serv:Channel("item")
-local Raid40 = serv:Channel("Raid")
-local other40 = serv:Channel("Other")
-local tp40 = serv:Channel("Teleport")
-local Shop40 = serv:Channel("Shop")
