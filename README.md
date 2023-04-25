@@ -3263,3 +3263,5 @@ function EngUi:Window(text,maincolor)
 	return ServerHold
 end
 warn("Imported Ui")
+local win = EngUi:Window("")
+local serv = win:Server("Manake X Hub", "")
