@@ -3264,3 +3264,11 @@ function EngUi:Window(text,maincolor)
 end
 warn("Imported Ui")
 local win = EngUi:Window("")
+local serv = win:Server("Manake X Hub", "")
+
+local Main40 = serv:Channel("Main")
+local item40 = serv:Channel("item")
+local Raid40 = serv:Channel("Raid")
+local other40 = serv:Channel("Other")
+local tp40 = serv:Channel("Teleport")
+local Shop40 = serv:Channel("Shop")
