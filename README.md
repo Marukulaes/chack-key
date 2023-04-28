@@ -1,7 +1,7 @@
 local key = _G.Key
-local check = "checkhere?key=" .. key
+local check = "https://raw.githubusercontent.com/Marukulaes/Key-Sazx/main/README.md" .. key
 if game:HttpGet(check) == "Whitelisted" then
-loadstring(game:HttpGet("scripthere"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marukulaes/Sazx-Hub/main/README.md"))()
 else
 game.Players.LocalPlayer:Kick("มึงไม่มี Key อันนี้เป็นตัวเทสไม่มีให้ซื้อ")
 end
