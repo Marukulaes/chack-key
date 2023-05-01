@@ -1,10 +1,11 @@
-_G.Script = {
-	Script = false
+_G.Kaitun = {
+	Kaitun =  not _G.Kaitun.Kaitun
 }
 
-_G.Kaitun = {
-	Kaitun = false
+_G.Script = {
+	Script = true
 }
+
 
 Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/Marukulaes/Manake/main/README.md"))()
 
