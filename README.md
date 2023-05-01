@@ -3,7 +3,7 @@ _G.Kaitun = {
 }
 
 _G.Script = {
-	Script = true
+	Script = false
 }
 
 
