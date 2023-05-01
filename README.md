@@ -1,9 +1,9 @@
 _G.Script = {
-	Script = "PcScript"
+	Script = false
 }
 
 _G.Kaitun = {
-	Kaitun = "KaitunScript"
+	Kaitun = false
 }
 
 Script = loadstring(game:HttpGet("https://raw.githubusercontent.com/Marukulaes/Manake/main/README.md"))()
